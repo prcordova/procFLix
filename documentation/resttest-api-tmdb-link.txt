@@ -1,0 +1,6 @@
+https://api.themoviedb.org/3/movie/550?api_key=e2743d338ac7aa161fb32b3fcb8c13d6&language=pt-BR
+
+
+key = https://api.themoviedb.org/3/movie/550?api_key=e2743d338ac7aa161fb32b3fcb8c13d6
+
+token = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMjc0M2QzMzhhYzdhYTE2MWZiMzJiM2ZjYjhjMTNkNiIsInN1YiI6IjYxODRiNjU4ZTU0ZDVkMDA0M2IwNTYxMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.48HYRfPtvNAPvadiXlwAdGlD32BKjbm_1wN3V3wyRfY
