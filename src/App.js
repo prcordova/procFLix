@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import React, { useEffect, useState } from 'react';
 import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
@@ -6,6 +5,8 @@ import './App.css'
 import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
 
+
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
 
   const [movieList, setMovieList] = useState([]);
@@ -61,7 +62,19 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+      <footer>
+        Feito com <span role="img" aria-label="coração">❤️</span> por ProcLabs <br />
+        Direitos de imagens para Netflix <br />
+        Dados pegos do site TheMovieDB.org
 
-    </div>
+      </footer >
+      {movieList.length <= 0 &&
+        <div className="loading">
+          <img src="https://1.bp.blogspot.com/-HV5cRoC-hPo/XTduGAHUQoI/AAAAAAADDQM/zT-_kdB3nNMIHT92Gq_eHTCGgu2HqZlmgCLcBGAs/s1600/LO30.gif" alt="Carregando" />
+
+        </div>
+      }
+
+    </div >
   )
 }
